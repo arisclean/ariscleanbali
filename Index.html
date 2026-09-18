@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aris Clean Bali</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+/* ==============================
+   RESET
+============================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f7faf8;
+}
+
+
+/* ==============================
+   TOP HEADER
+============================== */
+
+.top-bar{
+    width:100%;
+    background:#1f7a52;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 8%;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.logo img{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    object-fit:cover;
+    filter:brightness(0) invert(1);
+}
+
+.social{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-left:auto;
+}
+
+.social a{
+    color:white;
+    font-size:26px;
+    transition:0.3s;
+}
+
+.social a:hover{
+    color:#b9ffd7;
+}
+
+
+/* ==============================
+   HERO
+============================== */
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0 0 30px;
+}
+
+.banner{
+    width:100%;
+    margin:auto;
+}
+
+.banner img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:cover;
+}
+
+.hero-text{
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:48px;
+    color:#1f7a52;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#1f7a52;
+    color:white;
+    padding:15px 35px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#146a45;
+}
+
+
+/* ==============================
+   SERVICES
+============================== */
+
+.service{
+    padding:40px 8%;
+    background:#1f7a52;
+}
+
+.service h2{
+    text-align:center;
+    color:white;
+    margin-bottom:40px;
+    font-size:36px;
+}
+
+.card-area{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+
+.card-link{
+    text-decoration:none;
+    color:inherit;
+}
+
+.card{
+    background:#f6fff8;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:0.3s;
+}
+
+.card-link:hover .card{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:140px;
+    height:140px;
+    object-fit:cover;
+    object-position:center;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.card i{
+    font-size:45px;
+    color:#1f7a52;
+    margin-bottom:20px;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#333;
+}
+
+.card p{
+    color:#666;
+}
+
+
+/* ==============================
+   FOOTER
+============================== */
+
+footer{
+    background:#1f7a52;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+/* ==============================
+   MOBILE
+============================== */
+@media(max-width:600px){
+
+    .service{
+        padding:25px 15px;
+    }
+
+    .service h2{
+        font-size:26px;
+        margin-bottom:20px;
+    }
+
+    .card-area{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .card-link{
+        width:200px;
+    }
+
+    .card{
+        width:200px;
+        height:155px;
+        padding:12px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        border-radius:10px;
+    }
+
+    .card img{
+        width:75px;
+        height:75px;
+        margin-bottom:8px;
+        border-radius:10px;
+    }
+
+    .card h3{
+        font-size:15px;
+        margin-bottom:5px;
+    }
+
+    .card p{
+        font-size:11px;
+        line-height:1.3;
+    }
+
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header class="top-bar">
+
+<div class="logo">
+<img src="logo-atas.png" alt="Logo Aris Clean Bali">
+</div>
+
+<div class="social">
+
+<a href="https://www.tiktok.com/@aris.cleann.bali" target="_blank">
+    <i class="fab fa-tiktok"></i>
+</a>
+
+<a href="https://instagram.com/ariscleann" target="_blank">
+    <i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://facebook.com/ariscleannbali" target="_blank">
+    <i class="fab fa-facebook"></i>
+</a>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="banner">
+    <img src="web 1.png" alt="Hal Web">
+</div>
+
+<div class="hero-text">
+
+<h1>Jasa Cleaning Service Profesional di Bali</h1>
+
+<p>
+Aris Clean Bali menyediakan layanan General Cleaning,
+Deep Cleaning, Sofa Cleaning, Mattress Cleaning,
+Toilet Cleaning, hingga Tandon Cleaning dengan tenaga
+profesional dan peralatan lengkap.
+</p>
+
+<a href="https://wa.me/6285858859544?text=Halo%20Aris%20Clean%20Bali%20%F0%9F%91%8B%0ASaya%20sudah%20mengunjungi%20website%20dan%20ingin%20booking%20jasa%20cleaning.%0A%0AMohon%20dibantu%20untuk%20proses%20booking%20%F0%9F%98%8A"
+ class="btn" target="_blank">
+    Pesan Sekarang
+</a>
+
+</div>
+
+</section>
+
+<section class="service">
+
+<h2>Layanan Kami</h2>
+
+<div class="card-area">
+
+<a href="general-cleaning.html" class="card-link">
+    <div class="card">
+        <img src="gc.png" alt="General Cleaning">
+        <h3>General Cleaning</h3>
+        <p>Pembersihan rumah, villa, apartemen, dan kantor.</p>
+    </div>
+</a>
+<a href="home-cleaning.html" class="card-link">
+    <div class="card">
+        <img src="hc.png" alt="Home Cleaning">
+        <h3>Home Cleaning</h3>
+        <p>Satu hari untuk rumah lebih sempurna.</p>
+     </div>
+</a>
+
+<a href="spesial-cleaning.html" class="card-link">
+    <div class="card">
+       <img src="sc.png" alt="Special Cleaning">
+       <h3>Spesial Cleaning</h3>
+       <p>Toilet Cleaning,Kos-kosan Cleaning,Glass Clean.</p>
+    </div>
+</a>
+
+<a href="wet-and-dry-cleaning.html" class="card-link">
+    <div class="card">
+        <img src="w&d.png" alt="Wet & Dry Cleaning">
+        <h3>Wet & Dry Cleaning</h3>
+        <p>Pembersihan Sofa,Bad,dan Karpet.</p>
+    </div>
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+©️ 2026 Aris Clean Bali | Professional Cleaning Service
+
+</footer>
+
+</body>
+</html>
